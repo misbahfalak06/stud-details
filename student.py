@@ -7,7 +7,7 @@ if len(sys.argv) ==6:
     m4=sys.argv[4]
     m5=sys.argv[5]
 else:
-    script_name=input("Enter script name: ")
+    script_name=sys.argv[0]
     m1="88"
     m2="76"
     m3="90"
